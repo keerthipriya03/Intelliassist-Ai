@@ -2,7 +2,7 @@ const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-ip");
 const sendBtn = document.getElementById("send-btn");
 
-const BACKEND_URL = "http://localhost:5000/api/chat";
+const BACKEND_URL = "https://intelliassist-backend.onrender.com";
 
 window.onload = () => {
     const savedChat = localStorage.getItem("chatHistory");
